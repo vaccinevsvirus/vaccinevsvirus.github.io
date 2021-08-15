@@ -1,0 +1,49 @@
+.logo-container {
+  background-image: url("images/246954.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-image {
+  width: 50%;
+  display: block;
+  margin-left: 26%;
+  position: fixed;
+}
+
+.google-play-image {
+  width: 30%;
+}
+
+.apple-play-image {
+  width: 26%;
+  margin-top: 13px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 10%;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  align-items: flex-end;
+}
+.column-right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
