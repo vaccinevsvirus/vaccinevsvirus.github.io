@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" type="image/png" href="icon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="title" content="Vaccination Vs Virus" />
+    <meta name="title" content="Vaccination Vs Virus is a simple game" />
     <meta
       name="description"
-      content="Vaccination Vs Virus is a 2D strategy game, Users need to prevent the virus spread."
+      content="Vaccination Vs Virus is a simple 2d game, Users need to prevent the virus spread."
     />
     <meta name="keywords" content="vaccine vs virus, game, mobile game" />
     <meta name="robots" content="index, follow" />
@@ -24,52 +24,226 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-    <meta name="theme-color" content="#7952b3" />
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="bg.css" />
-    <script>
-      function changeImage() {
-        var i = Math.floor(Math.random() * 4);
-        document.body.style.backgroundImage = 'url("images/' + i + '.jpg")';
-      }
-      // window.setInterval(changeImage, 5000);
-    </script>
+    <link rel="stylesheet" href="media_query.css" />
   </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto">
-        <!-- <div>
-          <h3 class="float-md-start mb-0">Cover</h3>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contact</a>
-          </nav>
-        </div> -->
-      </header>
-
-      <img class="logo-image" src="images/logo.png" />
-      <div class="row"></div>
-      <a
-        href="https://play.google.com/store/apps/details?id=com.uttesh.vaccine_vs_virus"
-        target="_blank"
-        ><img src="images/google_play_store.png" class="google-play-image"
-      /></a>
-      <a href=""
-        ><img src="images/apple_store.png" class="apple-play-image"
-      /></a>
-
-      <footer class="mt-auto text-white-50">
+  <body>
+    <main>
+      <section class="text-center">
+        <img class="logo-img" src="./images/logo.png" />
         <p>
-          <a href="https://vaccinevsvirus.com/" class="text-white"
-            >Vaccine Vs Virus App</a
-          >, by
-          <a href="https://twitter.com/utteshkumar" class="text-white"
-            >@utteshkumar</a
-          >.
+          <button class="btn btn-default">
+            <img src="./images/google_play_store.png" class="logo-class" />
+          </button>
         </p>
-      </footer>
-    </div>
+      </section>
+
+      <div>
+        <hr class="featurette-divider" />
+        <h2 style="color: white; margin-left: 22px">Winners List</h2>
+        <div class="masonry-container">
+          <div class="masonry-grid">
+            <div class="masonry-cell ratio4x3">
+              <img class="masonry-img" src="./images/winners/Kishan_new.jpeg" />
+              <h2>
+                <span class="title-class"
+                  >Kishan <br />
+                  Second Wave Winner
+                </span>
+              </h2>
+            </div>
+            <div class="masonry-cell ratio4x3">
+              <img class="masonry-img" src="./images/winners/bharath.jpeg" />
+              <h2>
+                <span class="title-class"
+                  >Bharath B.S.<br />
+                  First Wave Winner</span
+                >
+              </h2>
+            </div>
+
+            <div class="masonry-cell ratio3x4">
+              <img
+                class="masonry-img"
+                src="./images/winners/srinivas_yallanki_new_new.jpeg"
+              />
+              <h2>
+                <span class="title-class"
+                  >Srinivas Yallanki<br />
+                  First Wave Winner</span
+                >
+              </h2>
+            </div>
+
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="./images/winners/J_Hari_Ranga_Sai_new.jpg"
+              />
+              <h2>
+                <span class="title-class"
+                  >J Hari Ranga Sai<br />
+                  First Wave Winner</span
+                >
+              </h2>
+            </div>
+
+            <!--
+            <div class="masonry-cell ratio9x16">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/450x800"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/310x310"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/320x320"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio9x16">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/450x800"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio3x4">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/300x400"
+              />
+            </div>
+            <div class="masonry-cell ratio3x4">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/300x400"
+              />
+            </div>
+            <div class="masonry-cell ratio4x3">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x300"
+              />
+            </div>
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/330x330"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/340x340"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio9x16">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/450x800"
+              />
+            </div>
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/350x350"
+              />
+            </div>
+            <div class="masonry-cell ratio3x4">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/300x400"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/360x360"
+              />
+            </div>
+            <div class="masonry-cell ratio1x1">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/370x370"
+              />
+            </div>
+            <div class="masonry-cell ratio16x9">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/400x225"
+              />
+            </div>
+            <div class="masonry-cell ratio9x16">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/450x800"
+              />
+            </div>
+            <div class="masonry-cell ratio3x4">
+              <img
+                class="masonry-img"
+                src="https://source.unsplash.com/user/trevoreyre/likes/300x400"
+              />
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./resources/bootstrap-5.1.0/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
